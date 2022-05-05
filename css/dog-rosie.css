@@ -1,4 +1,5 @@
-.container {  display: grid;
+.container {
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 0.5fr 1.5fr 1fr 1fr 1fr;
   gap: 0px 0px;
@@ -12,32 +13,77 @@
     ". ph9 cap9 ph10 cap10 .";
 }
 
-.navbar { grid-area: navbar; }
+.navbar {
+  grid-area: navbar;
+  border: 20px solid black;
+}
 
-.ph1 { grid-area: ph1; }
+.ph1 {
+  grid-area: ph1;
+  border: 20px solid black;
+}
 
-.ph3 { grid-area: ph3; }
+.ph3 {
+  grid-area: ph3;
+  border: 20px solid black;
+}
 
-.ph6 { grid-area: ph6; }
+.ph6 {
+  grid-area: ph6;
+  border: 20px solid black;
+}
 
-.ph8 { grid-area: ph8; }
+.ph8 {
+  grid-area: ph8;
+  border: 20px solid black;
+}
 
-.cap1 { grid-area: cap1; }
+.cap1 {
+  grid-area: cap1;
+  border: 20px solid black;
+}
 
-.cap3 { grid-area: cap3; }
+.cap3 {
+  grid-area: cap3;
+  border: 20px solid black;
+}
 
-.cap6 { grid-area: cap6; }
+.cap6 {
+  grid-area: cap6;
+  border: 20px solid black;
+}
 
-.cap8 { grid-area: cap8; }
+.cap8 {
+  grid-area: cap8;
+  border: 20px solid black;
+}
 
-.ph9 { grid-area: ph9; }
+.ph9 {
+  grid-area: ph9;
+  border: 20px solid black;
+}
 
-.ph10 { grid-area: ph10; }
+.ph10 {
+  grid-area: ph10;
+  border: 20px solid black;
+}
 
-.cap9 { grid-area: cap9; }
+.cap9 {
+  grid-area: cap9;
+  border: 20px solid black;
+}
 
-.cap10 { grid-area: cap10; }
+.cap10 {
+  grid-area: cap10;
+  border: 20px solid black;
+}
 
-.main_content { grid-area: main_content; }
+.main_content {
+  grid-area: main_content;
+  border: 20px solid black;
+}
 
-.title { grid-area: title; }
+.title {
+  grid-area: title;
+  border: 10px solid black;
+}

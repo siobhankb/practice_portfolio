@@ -83,13 +83,27 @@ nav {
   border-radius: 5px;
 }
 
-.main-article h1,
-h3 {
+.next-article {
+  float: left;
+  height: 100%;
+  width: 60%;
+  padding: 10px;
+  margin: 20px;
+  background-color: bisque;
+  border-radius: 5px;
+}
+
+.main-article h1, .main-article
+h3, .next-article h1, .next-article h3 {
   margin: 0.2em;
 }
 
 .main-article p {
   margin: 0.8em;
+}
+
+.art-text {
+  color:brown;
 }
 
 .sidebar {
@@ -158,12 +172,6 @@ textarea {
 }
 #foot {
   width: 100%;
-}
-.wassup {
-  color: blue;
-}
-.wassup {
-  color: chocolate;
 }
 
 .fa {
