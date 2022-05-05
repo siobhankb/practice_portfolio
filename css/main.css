@@ -3,16 +3,19 @@ html {
   height: 100%;
   margin: 0px;
 }
-body{
-    background-color: cadetblue;
+body {
+  background-color: cadetblue;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   color: navy;
 }
 
-a{
-  color:#1E5792;
+a {
+  color: #1e5792;
 }
 nav li {
   display: inline;
@@ -24,7 +27,7 @@ nav ul {
   list-style: none;
 }
 nav a {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: bolder;
   font-size: larger;
   color: white;
@@ -41,10 +44,10 @@ nav {
 }
 
 #home_title {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: bolder;
-  font-size:3ch;
-  color:aquamarine;
+  font-size: 3ch;
+  color: aquamarine;
   text-decoration: none;
 }
 
@@ -57,10 +60,10 @@ nav {
 }
 .central-name {
   color: navy;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-weight:900;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 900;
   font-size: 50px;
-  background-color:cadetblue;
+  background-color: cadetblue;
   border: 30px solid cadetblue;
   border-radius: 50%;
   text-align: center;
@@ -71,16 +74,17 @@ nav {
 }
 
 .main-article {
-  float:left;
+  float: left;
   height: 100%;
   width: 60%;
   padding: 10px;
-  margin:20px;
+  margin: 20px;
   background-color: bisque;
   border-radius: 5px;
 }
 
-.main-article h1, h3 {
+.main-article h1,
+h3 {
   margin: 0.2em;
 }
 
@@ -89,34 +93,34 @@ nav {
 }
 
 .sidebar {
-  float:right;
+  float: right;
   height: 100%;
   width: 30%;
   background-color: antiquewhite;
   border-radius: 5px;
-  margin-top:20px;
-  margin-right:20px;
+  margin-top: 20px;
+  margin-right: 20px;
 }
 
-.side-article{
-    display:flex;
-    flex-direction: column;
-    margin:8px;
+.side-article {
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
 }
 
 .side-article h1 {
-  margin:0px;
+  margin: 0px;
 }
 
 .side-article h4 {
-  margin-top:2px;
+  margin-top: 2px;
 }
 
 .side-article p {
   margin-top: -20px;
 }
 
-.side-article ul{
+.side-article ul {
   list-style-type: none;
   padding: 5px;
 }
@@ -128,17 +132,18 @@ nav {
   width: 30%;
   border-radius: 50%;
   border-color: black;
-  padding-top:15px;
+  padding-top: 15px;
 }
 
 #profile-details {
-    text-align: center;
+  text-align: center;
 }
 
-textarea, input {
-    margin-top: 0px;
-    width: 95%;
-    background-color:blanchedalmond;
+textarea,
+input {
+  margin-top: 0px;
+  width: 95%;
+  background-color: blanchedalmond;
 }
 
 textarea {
@@ -146,53 +151,50 @@ textarea {
 }
 
 .foot {
-  display:flex;
+  display: flex;
   flex-direction: row;
-  align-items:flex-end;
+  align-items: flex-end;
   width: 100%;
 }
 #foot {
   width: 100%;
 }
-.wassup{
-    color:blue;
+.wassup {
+  color: blue;
 }
-.wassup{
-    color:chocolate;
-}
-
-.container {
-
-}
-.fa {  
-  padding: 15px;  
-  text-align: center;  
-  margin: 2px 1px;  
-  font-size: 30px;  
-  width: 20px;  
+.wassup {
+  color: chocolate;
 }
 
-.fa-inbox {  
-  background: #dd4b39;  
-  color: white;  
+.fa {
+  padding: 15px;
+  text-align: center;
+  margin: 2px 1px;
+  font-size: 30px;
+  width: 20px;
+}
+
+.fa-inbox {
+  background: #dd4b39;
+  color: white;
 }
 
 .fa-github {
   background: lightgray;
-  color:black;
+  color: black;
 }
 
-.fa-linkedin {  
-  background: #007bb5;  
-  color: white;  
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
 }
 
-.fa-twitter {  
-  background: #55ACEE;  
-  color: white;  
+.fa-twitter {
+  background: #55acee;
+  color: white;
 }
 
 .fa-podcast {
   background: linear-gradient(180deg, #fb83fa, 21%, #e93cec);
-  color:white;
+  color: white;
 }
