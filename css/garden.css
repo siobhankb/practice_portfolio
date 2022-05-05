@@ -1,0 +1,136 @@
+.container {  
+  display: grid;
+  grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
+  grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "navbar navbar navbar navbar navbar navbar"
+    ". title title title title ."
+    ". main_content main_content main_content main_content ."
+    ". ph1 cap1 ph2 cap2 ."
+    ". cap3 ph3 cap4 ph4 ."
+    ". ph5 cap5 ph6 cap6 .";
+}
+#home_title {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  font-size:3ch;
+  color:aquamarine;
+  text-decoration: none;
+}
+
+.navbar {
+  border: 20px solid pink;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  height: 10%;
+  padding: 20px;
+  background-color: #132743;
+  margin: 0px;
+}
+
+.navbar a {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  font-size: larger;
+  color: white;
+  text-decoration: none;
+}
+.navbar a:hover {
+  color: greenyellow;
+}
+
+.main_content { 
+  grid-area: main_content;
+  border: 20px solid red;
+  font-size: 100px; 
+}
+
+.title { 
+  grid-area: title;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border: 20px solid purple;
+  color:white;
+  font-size: 300px;
+  background-color: blueviolet;  
+}
+
+.ph1 { 
+  grid-area: ph1;
+  border: 20px solid black;
+  display: flex;
+}
+
+.ph1 img, .ph2 img, .ph3 img, .ph4 img, .ph5 img, .ph6 img {
+  width:auto;
+  height:50%;
+}
+
+.cap1 h3, .cap2 h3, .cap3 h3, .cap4 h3, .cap5 h3, .cap6 h3 {
+  font-size: 200px;
+  font-weight: 900;
+}
+
+.cap1 p, .cap2 p, .cap3 p, .cap4 p, .cap5 p, .cap6 p {
+  font-size: 100px;
+}
+
+.cap1 { 
+  grid-area: cap1;
+  border: 20px solid black;  
+}
+
+.ph2 { 
+  grid-area: ph2;
+  border: 20px solid black; 
+}
+
+.cap2 { 
+  grid-area: cap2;
+  border: 20px solid black; 
+}
+
+.cap3 { 
+  grid-area: cap3;
+  border: 20px solid black; 
+}
+
+.ph3 { 
+  grid-area: ph3;
+  border: 20px solid black; 
+}
+
+.cap4 { 
+  grid-area: cap4;
+  border: 20px solid black; 
+}
+
+.ph4 { 
+  grid-area: ph4;
+  border: 20px solid black; 
+}
+
+.ph5 { 
+  grid-area: ph5;
+  border: 20px solid black; 
+}
+
+.cap5 { 
+  grid-area: cap5;
+  border: 20px solid black; 
+}
+
+.ph6 { 
+  grid-area: ph6;
+  border: 20px solid black; 
+}
+
+.cap6 { 
+  grid-area: cap6;
+  border: 20px solid black; 
+}
